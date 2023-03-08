@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(../img/fond_japon_resized.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header {
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  gap: 33%;
+}
+
+#drapeau {
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+#drapeaujapon {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  position: relative;
+}
+
+nav a {
+  display: flex;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline #846abd;
+  text-underline-offset: 5px;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 0;
+}
+
+nav ul ul li {
+  float: none;
+  width: 100%;
+}
+
+nav ul ul a {
+  padding: 10px;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+section {
+  padding: 50px;
+}
+
+#intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  width: auto;
+  height: 550px;
+  background-color: #f5f5f5;
+  margin-top: 5%;
+}
+
+#p-intro {
+  align-items: center;
+  margin-top: 20%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#culture {
+  background-color: #d9edf7;
+}
+
+#cuisine {
+  background-color: #f5cb5c;
+}
+
+#voyage {
+  background-color: #c5e1a5;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 7%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
